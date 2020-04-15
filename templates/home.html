@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">Hello, Python!</h1>
+  <p class="lead">This is a simple page web with Python.</p>
+  <hr class="my-4">
+  <img src="{{ url_for('static', filename='images/icon.png') }}" class="img-icon" alt="icon">
+</div>
+
+{% endblock%}

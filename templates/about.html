@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1 class="display-4">Hello, Python!</h1>
+    <p class="lead">Python is a powerful and easy to learn programming language. It features high-level, efficient data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, along with its interpreted nature, make it an ideal language for scripting and rapid application development in various areas and on most platforms.</p>
+    <hr class="my-4">
+    <img src="{{ url_for('static', filename='images/icon.png') }}" class="img-icon" alt="icon">
+  </div>
+
+{% endblock%}
